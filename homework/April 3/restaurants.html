@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="styles.css">
+        <title>My Favorite Restaurants</title>
+    </head>
+    <body>
+        <h1>A list of my favorite places to eat in Atlanta</h1>
+            <ul>
+                <li >
+                    <a href="http://www.grindhouseburgers.com/" target="_blank">Grindhouse Burgers</li>
+                    <img src="http://www.grindhouseburgers.com/photos/IMG_4368.jpg" alt="Grindhouse" width="150"></a> 
+                <li>
+                    <a href="http://www.torchedhopbrewing.com/about-us-1"  target="_blank">Torched Hops</li>
+                    <img src="https://static1.squarespace.com/static/5547a906e4b0ba188d4a612f/t/570291f25559868c75febf64/1459786243914/" width="150"></a>
+                <li>
+                    <a href="http://argosy-east.com/" target="_blank">Argosy
+                    </li>
+                    <img src="https://static.squarespace.com/static/511490efe4b0f297c486b7de/t/5148e81ce4b0a8477901738f/1363732508189/P1090003.JPG" width="150"></a>
+                <li>
+                    <a href="https://gusdumplings.com/" target="_blank">Gu's Dumplings
+                    </li>
+                   <img src="https://img1.wsimg.com/isteam/ip/63718715-f7f9-4e63-84fc-d66fd2c99e03/53d687b6-e57a-4ac5-8760-de42da287a54.jpeg" width="150"></a>
+                <li>
+                    <a href="https://www.eltesoroatl.com/menu" target="_blank">El Tesoro
+                    </li>
+                    <img src="https://cdn2.atlantamagazine.com/wp-content/uploads/sites/4/2018/08/eltesoro01_chrisrank_courtesy.jpg" width="150"></a>
+                <li>
+                    <a href="my_kitchen.html" target="_self">My Kitchen</li>
+                    <img src="https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2018/2/19/2/sh2018_kitchen-01-wide-KB2A6352_h.jpg.rend.hgtvcom.966.644.suffix/1519059176000.jpeg" width="150"></a>
+            </ul>
+
+<div id="form_container">
+    <div id="submission_form">       
+        <h2>Here is a form to submit your name</h2>
+        <form action="form_action.php" method="GET">
+            First Name: <input type="text" name="fname" placeholder="First Name"><br>
+            Last Name: <input type="text" name="lname" placeholder="Last Name"><br>
+            Email: <input type="email" name="email" autofocus placeholder="Email"><br>
+            Enter your name here for free money: <input type="text" name="free money" disabled><br>
+            Submit an image: <input type="image" src="https://blog.prepscholar.com/hubfs/body_submit.jpg" width="50" height="50"><br>
+            <br>
+            Which restaurant is your favorite? <br>
+            <ul>
+                <input type="checkbox" name="Grindhouse"> Grindhouse Burgers</br>
+                <input type="checkbox" name="Torched Hops"> Torched Hops</br>
+                <input type="checkbox" name="Argosy"> Argosy</br>
+                <input type="checkbox" name="Gu's Dumplings"> Gu's Dumplings</br>
+                <input type="checkbox" name="El Tesoro"> El Tesoro</br>
+                <input type="checkbox" name="My Kitchen"> My Kitchen</br>
+            </ul>
+            <input type="hidden" id="custID" name="honeypot" value="1234">
+            <input type="submit" id="Submit" value="Submit">
+        </form>
+    </div> 
+</div>
+
+    </body>
+</html>

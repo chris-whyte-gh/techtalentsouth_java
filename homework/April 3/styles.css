@@ -1,0 +1,42 @@
+ul li {
+   color: greenyellow;
+}
+
+ul {
+    color: red;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: green;
+    font-weight: bold;
+}
+
+#Submit {
+    background-color: aquamarine;
+    display: inline-block;
+    color: brown;
+    font-size: 24px;
+}
+
+h2 {
+    font-variant: small-caps;
+    text-align: center;
+}
+
+#form_container {
+    text-align: center;
+}
+
+#submission_form {
+    display: inline-block;
+    text-align: left;
+}
