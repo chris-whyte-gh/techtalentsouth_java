@@ -1,0 +1,39 @@
+div.quarter {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border-style: solid;
+    border-color: white;
+}
+
+div.quarter.red {
+    left: 0px;
+    top: 0px;
+    border-top-left-radius: 150px;
+}
+
+div.quarter.yellow {
+    left: 150px;
+    top: 0;
+    border-top-right-radius: 150px;
+}
+
+div.quarter.green {
+    left: -153px;
+    top: 150px;
+    border-bottom-left-radius: 150px;
+}
+
+div.quarter.blue {
+    left: 0px;
+    top: 151px;
+    border-bottom-right-radius: 150px;
+}
+
+p {
+    left: 50px;
+    top: 50px;
+    position: relative;
+    color: white;
+}
